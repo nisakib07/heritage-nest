@@ -1,7 +1,9 @@
+import Navbar from "../components/Navbar";
+
 const Layout = () => {
   return (
     <div>
-      <h1>Hello</h1>
+      <Navbar></Navbar>
     </div>
   );
 };
