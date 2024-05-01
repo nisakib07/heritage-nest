@@ -18,7 +18,7 @@ const Banner = () => {
             Your Portal to India's Exquisite Real Estate
           </h1>
           <div className="flex justify-center mt-12">
-            <button className="bg-[#0059B1] flex items-center px-6 py-4">
+            <button className="bg-[#0059B1] flex items-center px-6 py-4 gap-2.5 rounded-[4px] font-medium text-lg">
               <SlMagnifier></SlMagnifier> Find Property
             </button>
           </div>{" "}
