@@ -37,7 +37,7 @@ const Navbar = () => {
           className={({ isActive }) =>
             `flex items-center gap-3 ${
               isActive
-                ? " text-[#0059B1] hover:underline hover:bg-inherit  text-lg"
+                ? " text-[#0059B1] hover:underline  hover:bg-inherit  text-lg"
                 : "text-black hover:underline hover:bg-inherit text-lg"
             }`
           }>
@@ -110,7 +110,9 @@ const Navbar = () => {
             <img className="h-16" src={logo} alt="" />
           </div>
           <div className="navbar-end">
-            <p className="hover:underline hover:cursor-pointer">Sign In</p>
+            <p className="hover:underline hover:cursor-pointer text-lg">
+              Sign In
+            </p>
           </div>
         </div>
       </Wrapper>
