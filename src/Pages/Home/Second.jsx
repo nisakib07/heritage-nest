@@ -20,7 +20,7 @@ const Second = () => {
               alt=""
             />
             <div className="text-[#0059B1] bg-white rounded-full text-6xl absolute -top-[6%] right-[62%]">
-              <FaCirclePlay className=" "></FaCirclePlay>
+              <FaCirclePlay></FaCirclePlay>
             </div>
           </div>
         </div>

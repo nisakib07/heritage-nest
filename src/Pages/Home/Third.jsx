@@ -1,19 +1,19 @@
-import one from "../../assets/one.jpg";
-import two from "../../assets/two.jpg";
-import Efficient from "../../components/Efficient";
 import Wrapper from "../../components/Wrapper";
+import five from "../../assets/five.jpg";
+import six from "../../assets/six.jpg";
 import { FaCirclePlay } from "react-icons/fa6";
+import Efficient from "../../components/Efficient";
 
-const First = () => {
+const Third = () => {
   return (
     <Wrapper>
-      <div className="mt-20 flex gap-16 flex-col lg:flex-row">
+      <div className="mt-28 flex gap-16 flex-col lg:flex-row">
         <div className="lg:w-1/2">
           <div className="relative">
-            <img className="w-3/4" src={one} alt="" />
+            <img className="w-3/4" src={five} alt="" />
             <img
               className="absolute right-0 top-[65%] w-[460px] rounded-lg"
-              src={two}
+              src={six}
               alt=""
             />
             <div className="text-[#0059B1] bg-white rounded-full text-6xl absolute top-[58%] right-[21%]">
@@ -29,4 +29,4 @@ const First = () => {
   );
 };
 
-export default First;
+export default Third;
