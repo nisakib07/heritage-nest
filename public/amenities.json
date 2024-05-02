@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "title": "Power Backup",
+    "img": "https://i.ibb.co/wRyqYdC/power.png"
+  },
+  {
+    "id": 2,
+    "title": "Lift",
+    "img": "https://i.ibb.co/LtfjygJ/lift.png"
+  },
+  {
+    "id": 3,
+    "title": "Club House",
+    "img": "https://i.ibb.co/51Z7MZM/club-House.png"
+  },
+  {
+    "id": 4,
+    "title": "Gymnasium",
+    "img": "https://i.ibb.co/tCvfmZW/gym.png"
+  },
+  {
+    "id": 5,
+    "title": "Park",
+    "img": "https://i.ibb.co/sWvCQmm/park.png"
+  },
+  {
+    "id": 6,
+    "title": "Reserved Parking",
+    "img": "https://i.ibb.co/YbFxj94/reserved.png"
+  },
+  {
+    "id": 7,
+    "title": "Security",
+    "img": "https://i.ibb.co/Q9VrfzP/security.png"
+  },
+  {
+    "id": 8,
+    "title": "Water Storage",
+    "img": "https://i.ibb.co/Lk6prMQ/water.png"
+  },
+  {
+    "id": 9,
+    "title": "Private Terrace/Garden",
+    "img": "https://i.ibb.co/qgCtCzx/terrace.png"
+  },
+  {
+    "id": 10,
+    "title": "Vaastu Compliant",
+    "img": "https://i.ibb.co/VS1R8ZX/vaastu.png"
+  },
+  {
+    "id": 11,
+    "title": "Service/Goods Lift",
+    "img": "https://i.ibb.co/gZhKccN/service.png"
+  },
+  {
+    "id": 12,
+    "title": "Visitor Parking",
+    "img": "https://i.ibb.co/DQhjJJd/visitor.png"
+  },
+  {
+    "id": 13,
+    "title": "Intercom Facility",
+    "img": "https://i.ibb.co/1m0fLnV/intercom.png"
+  },
+  {
+    "id": 14,
+    "title": "Maintenance Staff",
+    "img": "https://i.ibb.co/sgmLD9F/maintenance.png"
+  },
+  {
+    "id": 15,
+    "title": "Waste Disposal",
+    "img": "https://i.ibb.co/P6nR8W5/waste.png"
+  },
+  {
+    "id": 16,
+    "title": "Laundry Service",
+    "img": "https://i.ibb.co/n1dSmnF/laundry.png"
+  },
+  {
+    "id": 17,
+    "title": "Internet/Wi-Fi Connectivity",
+    "img": "https://i.ibb.co/cb8jySn/internet.png"
+  },
+  {
+    "id": 18,
+    "title": "DTH Television Facility",
+    "img": "https://i.ibb.co/BztrhhT/dth.png"
+  },
+  {
+    "id": 19,
+    "title": "Piped Gas",
+    "img": "https://i.ibb.co/cXTR89W/gas.png"
+  },
+  {
+    "id": 20,
+    "title": "Jogging and Strolling Track",
+    "img": "https://i.ibb.co/ckycHm6/jogging.png"
+  },
+  {
+    "id": 21,
+    "title": "Outdoor Tennis Courts",
+    "img": "https://i.ibb.co/vD5pt71/tennis.png"
+  },
+  {
+    "id": 22,
+    "title": "Early Learning Centre",
+    "img": "https://i.ibb.co/KDNg2FT/learning.png"
+  },
+  {
+    "id": 23,
+    "title": "Kids Play Area",
+    "img": "https://i.ibb.co/FzFrJK0/kids.png"
+  },
+  {
+    "id": 24,
+    "title": "Indoor Squash & Badminton Courts",
+    "img": "https://i.ibb.co/nRpMJth/squash.png"
+  }
+]

@@ -7,6 +7,7 @@ import Layout from "./Layout/Layout";
 import Home from "./Pages/Home/Home";
 import Buyer from "./Pages/Buyer/Buyer";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import SearchResult from "./Pages/SearchResult/SearchResult";
 
 const queryClient = new QueryClient();
 
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
       {
         path: "/buyer",
         element: <Buyer></Buyer>,
+      },
+      {
+        path: "/search-result",
+        element: <SearchResult></SearchResult>,
       },
     ],
   },
