@@ -6,6 +6,8 @@ import location from "../../assets/location.png";
 import icon1 from "../../assets/icon1.png";
 import icon2 from "../../assets/icon2.png";
 import icon3 from "../../assets/icon3.png";
+import LoanRange from "./LoanRange";
+import Reviews from "../../components/Reviews";
 
 const SearchResult = () => {
   const { data: propertyResults = [], isLoading } = useQuery({
@@ -21,13 +23,13 @@ const SearchResult = () => {
       <div className="mt-14 grid grid-cols-1 lg:grid-cols-3">
         <div className=" col-span-2">
           <div className="flex gap-8">
-            <p className="bg-[#0059B1] text-white text-lg font-medium w-fit p-2 rounded-lg">
+            <p className="bg-[#0059B1] text-white text-base lg:text-lg font-medium w-fit p-2 rounded-lg">
               Properties (400)
             </p>
-            <p className="bg-[#ECF5FF]  text-lg font-medium w-fit p-2 rounded-lg">
+            <p className="bg-[#ECF5FF]  text-base lg:text-lg font-medium w-fit p-2 rounded-lg">
               New Projects (400)
             </p>
-            <p className="bg-[#ECF5FF]  text-lg font-medium w-fit p-2 rounded-lg">
+            <p className="bg-[#ECF5FF]  text-base lg:text-lg font-medium w-fit p-2 rounded-lg">
               Pre-launch offers
             </p>
           </div>
@@ -41,7 +43,7 @@ const SearchResult = () => {
             {propertyResults?.map((property) => (
               <div
                 key={property?.id}
-                className="p-6 flex gap-8 bg-[#F9FAFB] mb-6">
+                className="p-6 flex flex-col lg:flex-row gap-8 bg-[#F9FAFB] mb-6">
                 <img src={property?.img} alt="" />
                 <div>
                   {/* Header */}
@@ -74,12 +76,7 @@ const SearchResult = () => {
                         className="w-[500px] h-2"
                         viewBox="0 0 429 2"
                         fill="none">
-                        <path
-                          d="M1 1H428"
-                          stroke="#E3E3E3"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                        />
+                        <path d="M1 1H428" stroke="#E3E3E3" />
                       </svg>
                     </div>
 
@@ -125,8 +122,17 @@ const SearchResult = () => {
               </div>
             ))}
           </div>
+          <hr className="border-2 mb-6" />
+          <div className="flex gap-2">
+            <h1 className="bg-[#0059B1] text-white w-fit p-2 rounded-lg">01</h1>
+            <h1 className="bg-[#ECF5FF]  w-fit p-2 rounded-lg">02</h1>
+            <h1 className="bg-[#ECF5FF] w-fit p-2 rounded-lg">Next</h1>
+          </div>
         </div>
       </div>
+
+      <LoanRange></LoanRange>
+      <Reviews></Reviews>
     </Wrapper>
   );
 };
