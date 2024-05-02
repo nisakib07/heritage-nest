@@ -9,8 +9,8 @@ const Footer = () => {
   return (
     <div className="bg-[#ECF5FF] py-16 mt-6">
       <Wrapper>
-        <div className="flex gap-8 justify-between mr-20">
-          <div>
+        <div className="grid grid-cols-2 lg:grid-cols-6 gap-8 justify-items-center">
+          <div className="pl-2 lg:pl-0">
             <img className="w-14" src={logo} alt="" />
             <p className="text-[#475467] font-medium mt-4">
               Design amazing digital experiences that create more happy in the
@@ -85,12 +85,12 @@ const Footer = () => {
         </div>
 
         <hr className="mt-16 mb-8 border-2 border-[#C5E2FF]" />
-        <div className="flex justify-between items-center">
+        <div className="grid grid-cols-1 justify-items-center gap-2 lg:flex lg:justify-between">
           <p className="text-[#667085]">
             © 2024 Heritage- Nest . All rights reserved.
           </p>
 
-          <div className="flex gap-6">
+          <div className="flex gap-6 flex-wrap">
             <img src={twitter} alt="" />
             <img src={linkedIn} alt="" />
             <img src={facebook} alt="" />
