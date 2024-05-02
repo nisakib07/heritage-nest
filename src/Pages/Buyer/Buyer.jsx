@@ -1,4 +1,5 @@
 import Properties from "../../components/Properties";
+import Reviews from "../../components/Reviews";
 import Wrapper from "../../components/Wrapper";
 import BuyerBanner from "./BuyerBanner";
 import Listing from "./Listing";
@@ -27,6 +28,10 @@ const Buyer = () => {
           </p>
         </div>
         <Properties></Properties>
+
+        <div>
+          <Reviews></Reviews>
+        </div>
       </Wrapper>
     </div>
   );

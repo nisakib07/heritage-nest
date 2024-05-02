@@ -7,3 +7,9 @@
 * {
   font-family: "Montserrat", sans-serif;
 }
+
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  @apply bg-[#EE6611];
+}
