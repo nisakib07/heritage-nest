@@ -13,7 +13,7 @@ const Details = () => {
         <OtherServices></OtherServices>
 
         <hr className="border-2 my-8" />
-        <div className="flex justify-between items-center mb-6">
+        <div className="flex justify-between items-center mb-6 px-2 lg:px-0">
           <h1 className="text-3xl font-semibold">Other Nearby Properties</h1>
           <p className="text-[#0059B1] text-lg font-semibold underline">
             See all property

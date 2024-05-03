@@ -35,7 +35,7 @@ const DetailsBanner = () => {
             <img src={detail3} alt="" />
             <div className="relative">
               <img className="w-full h-auto" src={detail4} alt="" />
-              <div class="absolute inset-0 bg-black opacity-60 flex items-center justify-center text-white lg:text-xl font-semibold">
+              <div className="absolute inset-0 bg-black opacity-60 flex items-center justify-center text-white lg:text-xl font-semibold">
                 View more
               </div>
             </div>
