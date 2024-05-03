@@ -8,7 +8,7 @@ const Buyer = () => {
   return (
     <div>
       <BuyerBanner></BuyerBanner>
-      <div className="mt-[650px] lg:mt-[200px] px-2">
+      <div className="mt-[650px] lg:mt-[250px] px-2">
         <Listing></Listing>
       </div>
       <Wrapper>

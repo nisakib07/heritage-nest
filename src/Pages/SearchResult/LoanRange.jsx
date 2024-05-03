@@ -1,12 +1,12 @@
 const LoanRange = () => {
   return (
-    <div className="mt-16 bg-[#ECF5FF] p-8 rounded-lg flex items-center gap-8 justify-between max-w-[1200px]">
-      <div className="w-2/6">
+    <div className="mt-16 bg-[#ECF5FF] p-8 rounded-lg flex items-center gap-8 justify-between max-w-[1200px] flex-col lg:flex-row mx-2 lg:mx-0">
+      <div className="lg:w-2/6 w-full">
         <p className="text-3xl font-semibold">Need a Home Loan?</p>
         <p className="mt-3">Select How much Home loan you can take</p>
       </div>
 
-      <div className="w-4/6">
+      <div className="lg:w-4/6 w-full">
         <input
           type="range"
           min={0}

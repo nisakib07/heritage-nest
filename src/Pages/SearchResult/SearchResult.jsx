@@ -22,8 +22,8 @@ const SearchResult = () => {
     <Wrapper>
       <div className="mt-14 grid grid-cols-1 lg:grid-cols-3">
         <div className=" col-span-2">
-          <div className="flex gap-8">
-            <p className="bg-[#0059B1] text-white text-base lg:text-lg font-medium w-fit p-2 rounded-lg">
+          <div className="flex lg:gap-8 gap-2 text-center">
+            <p className="bg-[#0059B1] text-white text-base lg:text-lg lg:font-medium w-fit p-2 rounded-lg">
               Properties (400)
             </p>
             <p className="bg-[#ECF5FF]  text-base lg:text-lg font-medium w-fit p-2 rounded-lg">
@@ -33,9 +33,9 @@ const SearchResult = () => {
               Pre-launch offers
             </p>
           </div>
-          <hr className="my-4 w-3/4" />
+          <hr className="my-4 lg:w-3/4" />
 
-          <p className="text-2xl font-medium">
+          <p className="text-2xl text-center lg:text-justify font-medium">
             400 results for rental property
           </p>
 
@@ -55,7 +55,7 @@ const SearchResult = () => {
                   </div>
 
                   {/* Location */}
-                  <div className=" mt-4 flex justify-between">
+                  <div className=" mt-4 flex lg:justify-between flex-wrap justify-center gap-2 lg:gap-0">
                     <div className="flex gap-2 items-center">
                       <img src={location} alt="" />
                       <p>Meadowshire Park, Greenfield, USA</p>
@@ -80,7 +80,7 @@ const SearchResult = () => {
                       </svg>
                     </div>
 
-                    <div className="flex justify-between">
+                    <div className="flex justify-between flex-wrap">
                       <div className="flex items-center gap-3 mt-4">
                         <img
                           className="bg-[#EE6611] p-2 rounded-lg"
@@ -123,7 +123,7 @@ const SearchResult = () => {
             ))}
           </div>
           <hr className="border-2 mb-6" />
-          <div className="flex gap-2">
+          <div className="flex gap-2 px-2 lg:px-0">
             <h1 className="bg-[#0059B1] text-white w-fit p-2 rounded-lg">01</h1>
             <h1 className="bg-[#ECF5FF]  w-fit p-2 rounded-lg">02</h1>
             <h1 className="bg-[#ECF5FF] w-fit p-2 rounded-lg">Next</h1>
