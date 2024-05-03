@@ -10,9 +10,9 @@ import { CiSearch } from "react-icons/ci";
 const BuyerBanner = () => {
   return (
     <div className="relative">
-      <img className="w-full h-full object-cover" src={buyerBanner} alt="" />
+      <img className="w-full h-auto object-cover" src={buyerBanner} alt="" />
 
-      <div className="absolute flex top-[60%] justify-center inset-x-0">
+      <div className="absolute flex top-[50%] lg:top-[40%] justify-center inset-x-0">
         <div className="bg-white p-8 max-w-[920px] mx-auto rounded-lg shadow-lg">
           <div className="flex gap-2 lg:gap-8 font-medium pb-2">
             <Link className="text-[#0059B1] border-[#0059B1] border-b-2">
