@@ -14,7 +14,7 @@ const Banner = () => {
             Seamlessly connecting you to the heartbeat of India's prime
             properties.
           </p>
-          <h1 className="text-6xl font-bold">
+          <h1 className="text-2xl lg:text-6xl font-bold">
             Your Portal to India's Exquisite Real Estate
           </h1>
           <div className="flex justify-center mt-12">
