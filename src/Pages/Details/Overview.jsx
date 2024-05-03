@@ -9,7 +9,7 @@ const Overview = () => {
     <div className="bg-[#F9FAFB] mt-8 p-6 rounded-lg border-2">
       <h4 className="text-2xl font-semibold">Overview</h4>
 
-      <div className="flex justify-between bg-white p-4 shadow-lg mt-8">
+      <div className="flex justify-between bg-white p-4 shadow-lg mt-8 flex-wrap gap-2 lg:gap-0">
         <div className="flex items-center gap-2">
           <img src={tub} alt="" />
           <p>
