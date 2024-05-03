@@ -6,7 +6,7 @@ const Efficient = () => {
       <p className="text-[#F06711] font-semibold text-lg">
         <span className="line-through">Prope</span>rty buying
       </p>
-      <h2 className="text-4xl font-bold mt-4">
+      <h2 className="text-2xl lg:text-4xl font-bold mt-4">
         Efficient and Transparent Home Buying Solutions
       </h2>
       <p className="text-[#667085] font-medium mt-6">

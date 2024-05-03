@@ -12,16 +12,16 @@ const Third = () => {
           <div className="relative">
             <img className="w-3/4" src={five} alt="" />
             <img
-              className="absolute right-0 top-[65%] w-[460px] rounded-lg"
+              className="absolute right-0 top-[65%] w-[280px] lg:w-[460px] rounded-lg"
               src={six}
               alt=""
             />
-            <div className="text-[#0059B1] bg-white rounded-full text-6xl absolute top-[58%] right-[21%]">
+            <div className="text-[#0059B1] bg-white rounded-full text-6xl absolute top-[50%] right-[18%] lg:top-[58%] lg:right-[21%]">
               <FaCirclePlay></FaCirclePlay>
             </div>
           </div>
         </div>
-        <div className="lg:w-1/2">
+        <div className="lg:w-1/2 mt-10 lg:mt-0">
           <Efficient></Efficient>
         </div>
       </div>
