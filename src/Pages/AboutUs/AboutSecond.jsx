@@ -19,11 +19,11 @@ const AboutSecond = () => {
         </div>
       </div>
 
-      <div className="bg-[#ECF5FF] p-2 lg:p-8 w-4/6 lg:w-1/2 rounded-lg absolute left-0 top-[50%] lg:top-[70%] lg:ml-20 ml-4">
+      <div className="bg-[#FDF0E7] p-2 lg:p-8 w-4/6 lg:w-1/2 rounded-lg absolute left-0 top-[50%] lg:top-[70%] lg:ml-20 ml-4">
         <div className="flex items-center gap-2">
           <p className="bg-[#EE6611] h-[2px] lg:h-1 w-12"></p>
           <p className="text-[#EE6611] text-xs lg:text-lg font-semibold">
-            Our Story
+            Mission Statement
           </p>
         </div>
 
@@ -31,8 +31,9 @@ const AboutSecond = () => {
           Efficient and Transparent Home Buying Solutions
         </h3>
         <p className="text-[#6B7280] mt-6 font-medium text-xs lg:text-base">
-          In the symphony of bustling markets and serene landscapes,
-          Heritage-Nest was born—a vision to
+          To bridge the miles with smiles, Heritage-Nest pledges to be the
+          golden thread connecting NRIs to their homeland, through trust,
+          transparency, and tailored real estate solutions.
         </p>
       </div>
     </div>
