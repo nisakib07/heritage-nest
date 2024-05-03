@@ -10,11 +10,11 @@ const DetailsBanner = () => {
   return (
     <div>
       <div className="flex items-center gap-16">
-        <h1 className="text-xl font-semibold">
+        <h1 className="text-base px-2 lg:px-0 lg:text-xl font-semibold">
           3 BHK Builder Floor for Sale in Site Ram Bazar Hyderabad
         </h1>
 
-        <p className="text-3xl font-semibold">$ 300K</p>
+        <p className="text-lg lg:text-3xl font-semibold">$ 300K</p>
       </div>
       <div className="flex items-center gap-2 mt-2">
         <img src={location} alt="" />
@@ -35,7 +35,7 @@ const DetailsBanner = () => {
             <img src={detail3} alt="" />
             <div className="relative">
               <img className="w-full h-auto" src={detail4} alt="" />
-              <div class="absolute inset-0 bg-black opacity-60 flex items-center justify-center text-white text-xl font-semibold">
+              <div class="absolute inset-0 bg-black opacity-60 flex items-center justify-center text-white lg:text-xl font-semibold">
                 View more
               </div>
             </div>
