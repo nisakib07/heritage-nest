@@ -59,7 +59,7 @@ const Navbar = () => {
       </li>
       <li>
         <NavLink
-          to="/about"
+          to="/about-us"
           className={({ isActive }) =>
             `flex items-center gap-3 ${
               isActive
@@ -67,7 +67,7 @@ const Navbar = () => {
                 : "text-black hover:underline hover:bg-inherit text-lg"
             }`
           }>
-          About
+          About Us
         </NavLink>
       </li>
     </>

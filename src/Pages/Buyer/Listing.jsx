@@ -5,7 +5,7 @@ import ListingCardOrange from "./ListingCardOrange";
 const Listing = () => {
   return (
     <Wrapper>
-      <div className="mt-[200px]">
+      <div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <ListingCardOrange></ListingCardOrange>
           <ListingCardBlue></ListingCardBlue>

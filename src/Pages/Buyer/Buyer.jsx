@@ -8,7 +8,9 @@ const Buyer = () => {
   return (
     <div>
       <BuyerBanner></BuyerBanner>
-      <Listing></Listing>
+      <div className="mt-[200px]">
+        <Listing></Listing>
+      </div>
       <Wrapper>
         <div className="mt-20">
           <div className="flex justify-between items-center mb-6">

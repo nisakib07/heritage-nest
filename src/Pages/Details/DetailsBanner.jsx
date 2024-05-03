@@ -33,8 +33,8 @@ const DetailsBanner = () => {
             <img className="col-span-3 w-full" src={detail1} alt="" />
             <img src={detail2} alt="" />
             <img src={detail3} alt="" />
-            <div class="relative">
-              <img class="w-full h-auto" src={detail4} alt="" />
+            <div className="relative">
+              <img className="w-full h-auto" src={detail4} alt="" />
               <div class="absolute inset-0 bg-black opacity-60 flex items-center justify-center text-white text-xl font-semibold">
                 View more
               </div>
