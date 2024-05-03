@@ -8,7 +8,7 @@ const Team = () => {
       <div className="flex items-center gap-2">
         <p className="bg-[#EE6611] h-[2px] lg:h-1 w-12"></p>
         <p className="text-[#EE6611] text-xs lg:text-lg font-semibold">
-          Our Story
+          Our Team
         </p>
       </div>
 

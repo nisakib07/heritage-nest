@@ -1,6 +1,7 @@
 import React from "react";
 import about2 from "../../assets/about2.png";
 import aboutHome from "../../assets/AboutHome.png";
+import vector from "../../assets/Vector.png";
 
 const AboutSecond = () => {
   return (
@@ -17,6 +18,10 @@ const AboutSecond = () => {
             />
           </div>
         </div>
+      </div>
+
+      <div className="absolute lg:top-[30%] top-[25%]">
+        <img className="w-1/4 lg:w-5/6" src={vector} alt="" />
       </div>
 
       <div className="bg-[#FDF0E7] p-2 lg:p-8 w-4/6 lg:w-1/2 rounded-lg absolute left-0 top-[70%] lg:top-[70%] lg:ml-20 ml-4">
